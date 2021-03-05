@@ -42,6 +42,7 @@ export interface Dimension {
 
 /**
  * Statistic to use over the aggregation period
+ * @deprecated - used in MetricAlarmConfig which is now deprecated
  */
 export enum Statistic {
   /**
